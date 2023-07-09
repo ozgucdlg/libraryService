@@ -14,6 +14,7 @@
 	<name>libraryService</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		<jakarta-servlet.version>5.0.0</jakarta-servlet.version>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -24,6 +25,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
