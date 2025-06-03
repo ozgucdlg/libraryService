@@ -8,6 +8,8 @@ public class LibraryServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LibraryServiceApplication.class, args);
+
+		System.err.println("This is a test message for Jenkins action");
 	}
 
 }
